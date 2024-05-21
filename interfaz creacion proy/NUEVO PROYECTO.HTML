@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Título de la página -->
+  <title>Crear Proyecto</title>
+   <!-- Enlazar el archivo de estilos externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+     <!-- Título de la sección -->
+    <h2>Crear Proyecto</h2>
+    <form id="projectForm">
+      <!-- Campo para ingresar el título del proyecto -->
+      <label for="projectTitle">Título del Proyecto:</label>
+      <input type="text" id="projectTitle" name="projectTitle" required>
+       <!-- Campo para ingresar los nombres de equipo de investigación del proyecto -->
+      <label for="researchTeam">Equipo de Investigación:</label>
+      <input type="text" id="researchTeam" name="researchTeam" required>
+        <!-- Campo para ingresar los objetivos del proyecto -->
+      <label for="objectives">Objetivos:</label>
+      <textarea id="objectives" name="objectives" required></textarea>
+       <!-- Campo para ingresar la duración del proyecto -->
+      <label for="duration">Duración del Proyecto:</label>
+      <input type="text" id="duration" name="duration" required>
+      <!-- Botón para enviar el formulario y crear el proyecto -->
+      <button type="submit">Crear Proyecto</button>
+    </form>
+     <!-- Mensaje de éxito que se muestra después de crear el proyecto -->
+    <div id="successMessage" class="hidden">¡Proyecto creado exitosamente!</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

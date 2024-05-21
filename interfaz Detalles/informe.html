@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de proyectos</title>
+    <!-- Enlace al archivo de estilos externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+         <!-- Titulo del proyecto -->
+        <h1>Detalles del Proyecto de investigacion</h1>
+         <!-- Formulario para ingresar detalles del proyecto -->
+        <form action="#" method="post">
+             <!-- Campo para ingresar el nombre del proyecto -->
+            <div class="form-group">
+                <label for="nombre">Nombre del Proyecto:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <!-- Campo para ingresar el tiempo de elaboración del proyecto -->
+            <div class="form-group">
+                <label for="tiempo">Tiempo de elaboracion:</label>
+                <input type="text"  type="number id="tiempo" name="tiempo" required>
+            </div>
+            <!-- Campo para ingresar la facultad destinada para el proyecto -->
+            <div class="form-group">
+                <label for="tipo">Facultad destinada :</label>
+                <input type="text"  type="number id="tipo" name="tipo" required>
+            </div>
+            <!-- Campo para ingresar los participantes del equipo del proyecto -->
+            <div class="form-group">
+                <label for="resultados">Participantes del equipo:</label>
+                <textarea id="resultados" name="resultados" rows="4" required></textarea>
+            </div>
+            <!-- Campo para ingresar observaciones sobre el proyecto -->
+            <div class="form-group">
+                <label for="Observacion">Observacion del Proyecto:</label>
+                <textarea id="observacion" name="Observacion" rows="4" required></textarea>
+            </div>
+            <!-- Botón para enviar el formulario y guardar los detalles del proyecto -->
+            <div class="form-group">
+                <input type="submit" value="GUARDAR">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
